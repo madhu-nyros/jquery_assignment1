@@ -88,6 +88,10 @@ span
 	color: blue;
 	cursor:pointer;
 }
+#one,#two,#three,#four,#five
+{
+	display: none;
+}
 /*ending bars and star rating*/
 /* starting popup/lightbox*/
 .img-thumbnail

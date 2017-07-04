@@ -3,27 +3,19 @@ $(document).ready(function(){
     $("#tab1").show();
   $("#Tab1").click(function(){
     $("#tab1").show();
-    $("#tab2").hide();
-    $("#tab3").hide();
-    $("#tab4").hide();
+    $("#tab2,#tab3,#tab4").hide();
   });
   $("#Tab2").click(function(){
     $("#tab2").show();
-    $("#tab1").hide();
-    $("#tab3").hide();
-    $("#tab4").hide();
+    $("#tab1,#tab3,#tab4").hide();
   });
   $("#Tab3").click(function(){
     $("#tab3").show();
-    $("#tab1").hide();
-    $("#tab2").hide();
-    $("#tab4").hide();
+    $("#tab1,#tab2,#tab4").hide();
   });
   $("#Tab4").click(function(){
     $("#tab4").show();
-    $("#tab1").hide();
-    $("#tab2").hide();
-    $("#tab3").hide();
+    $("#tab1,#tab2,#tab3").hide();
   });
 // tabs ending
 // slider starting
@@ -83,21 +75,31 @@ $(document).ready(function(){
     $("#star1").click(function(){
       $("#star1").css("color" ,"blue");
       $("#star2,#star3,#star4,#star5").css("color" ,"inherit");
-    });
+      $("#one").show();
+      $("#two,#three,#four,#five").hide();
+     });
     $("#star2").click(function(){
       $("#star1,#star2").css("color" ,"blue");
       $("#star3,#star4,#star5").css("color" ,"inherit");
-    });
+      $("#two").show();
+       $("#one,#three,#four,#five").hide();
+      });
     $("#star3").click(function(){
       $("#star1,#star2,#star3").css("color" ,"blue");
       $("#star4,#star5").css("color" ,"inherit");
+      $("#three").show();
+      $("#one,#two,#four,#five").hide();
     });
     $("#star4").click(function(){
       $("#star1,#star2,#star3,#star4").css("color" ,"blue");
       $("#star5").css("color","inherit");
+      $("#four").show();
+      $("#one,#two,#three,#five").hide();
     });
     $("#star5").click(function(){
       $("#star1,#star2,#star3,#star4,#star5").css("color" ,"blue");
+      $("#five").show();
+      $("#one,#two,#three,#four").hide();
     });
 // star rating end
 //tooltip starting
