@@ -1,0 +1,127 @@
+body
+{
+	margin-top: -5px;
+}
+/*tabs starting*/
+#list
+{
+	margin-right:60% !important;
+}
+#pad
+{
+	margin-top: -10px;
+	padding-left: 10px;
+}
+ul
+{
+	list-style-type: none;
+	padding: 10px;
+	right: 50% !important;
+	overflow:hidden;
+}
+ul li
+{
+	float: left;
+}
+ul li a
+{
+	padding:40px !important;
+	text-decoration: none;
+    color: black;
+}
+ul li a:hover
+{
+	text-decoration: none;
+	color:red;
+}
+#Tab1,#tab1
+{
+	background-color: black;
+	color:white;
+}
+#Tab2,#tab2
+{
+	background-color: red;
+	color:white;
+}
+#Tab3,#tab3
+{
+	background-color: green;
+	color:white;
+}
+#Tab4,#tab4
+{
+	background-color: blue;
+	color:white;
+}
+/*tabs ending*/
+/*slider starting*/
+#slides1,#slides2,#slides3
+{
+	margin-left: 25px;
+}
+#slides2
+{
+	display: none;
+}
+#slides3
+{
+	display: none;
+}
+span
+{
+	z-index: 1;
+	margin-top:5% !important;
+	padding: 10px;
+	color:black;
+	background-color: #d7ede3;
+}
+/*slider ending*/
+/*start bars and star rating*/
+.glyphicon-star:hover
+{
+    color:red;
+    cursor:pointer;
+}
+.glyphicon-star:active
+{
+	color: blue;
+	cursor:pointer;
+}
+/*ending bars and star rating*/
+/* starting popup/lightbox*/
+.img-thumbnail
+{
+	min-width: 200px !important;
+	max-width: 210px !important;
+	min-height:150px !important;
+	max-height: 160px !important;
+}
+.well
+{
+	padding:50px 20px 40px 30px;
+	margin:2% 26%;
+	border:none;
+}
+#chithas,#tigers,#flowers
+{
+	display: none;
+}
+/*ending popup/lightbox*/
+/*modal starting*/
+.btn-primary
+{
+ 	margin-left: 47%;
+}
+/*modal ending*/
+/*starting autocomplete*/
+#cars
+{
+	left:20% !important;
+	bottom: 20% !important;
+}
+#auto
+{
+    margin: 3% 2% 3% 39%;
+}
+/*ending autocomplete*/

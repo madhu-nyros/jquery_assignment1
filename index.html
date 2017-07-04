@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>jquery demo</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Madhu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+ </head>
+<body>
+<!-- starting tabs -->
+ <h1 style="text-align:center;"><u>Tabs</u></h1>
+  <div id="list">
+    <ul>
+     <li class="current"><a href="#tab1" onclick="event.preventDefault();" id="Tab1">Tab1</a></li>
+     <li><a href="#tab2" id="Tab2" onclick="event.preventDefault();">Tab2</a></li>
+     <li><a href="#tab3" id="Tab3" onclick="event.preventDefault();">Tab3</a></li>
+     <li><a href="#tab4" id="Tab4" onclick="event.preventDefault();">Tab4</a></li>
+    </ul>
+  </div>
+  <div class="tab" id="pad">
+    <div id="tab1" style="display: none;">
+ 	   <p>Canada is a North American country with ten provinces and three territories, bordering three oceans. The world's second-largest country by total area, it is sparsely populated and highly urbanized. One-third of its people live in the Toronto, Montreal and Vancouver metropolitan areas, and most of the rest live in other urban areas, including in Calgary, Edmonton, Quebec City, Winnipeg, Hamilton, and the capital, Ottawa. The British North America Act of July 1, 1867 (now celebrated as Canada Day) united the colonies of Canada, New Brunswick, and Nova Scotia in the semi-autonomous federal Dominion of Canada, which became largely independent with the Statute of Westminster 1931</p>
+    </div>
+    <div id="tab2" style="display: none;">
+      <p>tab2 Canada is a North American country with ten provinces and three territories, bordering three oceans. The world's second-largest country by total area, it is sparsely populated and highly urbanized. One-third of its people live in the Toronto, Montreal and Vancouver metropolitan areas, and most of the rest live in other urban areas, including in Calgary, Edmonton, Quebec City, Winnipeg, Hamilton, and the capital, Ottawa. The British North America Act of July 1, 1867 (now celebrated as Canada Day) united the colonies of Canada, New Brunswick, and Nova Scotia in the semi-autonomous federal Dominion of Canada, which became largely independent with the Statute of Westminster 1931</p>
+    </div>
+    <div id="tab3" style="display: none;">
+ 	  <p> tab3 Canada is a North American country with ten provinces and three territories, bordering three oceans. The world's second-largest country by total area, it is sparsely populated and highly urbanized. One-third of its people live in the Toronto, Montreal and Vancouver metropolitan areas, and most of the rest live in other urban areas, including in Calgary, Edmonton, Quebec City, Winnipeg, Hamilton, and the capital, Ottawa. The British North America Act of July 1, 1867 (now celebrated as Canada Day) united the colonies of Canada, New Brunswick, and Nova Scotia in the semi-autonomous federal Dominion of Canada, which became largely independent with the Statute of Westminster 1931</p>
+    </div>
+    <div id="tab4" style="display: none;">
+ 	  <p>tab 4 Canada is a North American country with ten provinces and three territories, bordering three oceans. The world's second-largest country by total area, it is sparsely populated and highly urbanized. One-third of its people live in the Toronto, Montreal and Vancouver metropolitan areas, and most of the rest live in other urban areas, including in Calgary, Edmonton, Quebec City, Winnipeg, Hamilton, and the capital, Ottawa. The British North America Act of July 1, 1867 (now celebrated as Canada Day) united the colonies of Canada, New Brunswick, and Nova Scotia in the semi-autonomous federal Dominion of Canada, which became largely independent with the Statute of Westminster 1931</p>
+    </div>
+   </div>
+ <!-- tabs ending -->
+ <!-- slider starting -->
+  <h1 style="text-align:center;"><u>Slider</u></h1>
+   <div class="panel slider">
+    <div class="container">
+	   <img src="./assets/images/trolltunga.jpg" width="90%" height="150px" id="slides1">
+	   <img src="./assets/images/cat.jpg" width="90%" height="150px" id="slides2">
+	   <img src="./assets/images/soapbubble.jpg" width="90%" height="150px" id="slides3">
+	   <span class="glyphicon glyphicon-chevron-left pull-left" id="slide"></span>
+	   <span class="glyphicon glyphicon-chevron-right pull-right" id="slide"></span>
+    </div>
+  </div>
+ <!-- slider ending -->
+ <!-- star rating start  -->
+ <h1 style="text-align:center;"><u>bars and star ratings</u></h1>
+  <div class="well">
+   <i class="glyphicon glyphicon-star" id="star1"></i>
+   <i class="glyphicon glyphicon-star" id="star2"></i>
+   <i class="glyphicon glyphicon-star" id="star3"></i>
+   <i class="glyphicon glyphicon-star" id="star4"></i>
+   <i class="glyphicon glyphicon-star" id="star5"></i>
+  </div>
+ <!-- star rating end -->
+ <!-- tooltip starting -->
+  <h1 style="text-align: center;"><u>Tooltip</u></h1>
+   <div class="well">
+    <label for="name">Tooltip</label>
+    <input type="text" data-toggle="tooltip" title="enter the name" id="name"  value="">
+   </div>
+ <!-- tooltip ending -->
+ <!-- popup/light box start -->
+  <h1 style="text-align: center;"><u>Popup/Lightbox</u></h1>
+   <div class="row panel">
+    <div class="col-sm-2 col-md-3">
+       <img src="./assets/images/bird.jpg" id="bird" class="img-thumbnail" widht="200px" height="150px">
+     </div>
+    <div class="col-sm-2 col-md-3">
+       <img src="./assets/images/chitha.jpg" id="chitha" class="img-thumbnail" widht="200px" height="150px">
+    </div>
+    <div class="col-sm-2 col-md-3">
+       <img src="./assets/images/tiger.jpg" id="tiger" class="img-thumbnail" widht="200px" height="150px">
+    </div>
+    <div class="col-sm-2 col-md-3">
+       <img src="./assets/images/flower.jpg" id="flower" class="img-thumbnail" width="200px" height="150px">
+    </div>
+   </div>
+   <div class="well" id="bigimage">
+    <img src="./assets/images/bird.jpg" id="birds"  widht="500px" height="450px">
+    <img src="./assets/images/chitha.jpg" id="chithas"  widht="500px" height="450px">
+    <img src="./assets/images/tiger.jpg" id="tigers"  widht="500px" height="450px">
+    <img src="./assets/images/flower.jpg" id="flowers"  width="600px" height="450px">
+   </div>
+ <!-- popup/lightbox ending  -->
+ <!-- modal starting -->
+ <h1 style="text-align: center;"><u>Modal</u></h1>
+ <div class="row">
+    <button class="btn btn-lg btn-primary">Modal</button>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+       </div>
+       <div class="modal-body">
+          <p>This is the modal.</p>
+       </div>
+       <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+    </div>
+   </div>
+ </div>
+<!-- modal ending -->
+<!-- autocomplete start -->
+  <h1 style="text-align: center"><u>Autocomplete</u></h1>
+  <div class="ui-widget" id="auto">
+    <lable for="cars">Cars</lable>
+    <input type="text" placeholder="eg audi" id="cars" name="">
+  </div>
+<!-- autocomplete ending -->
+ </body>
+</html>
